@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product category</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product categories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Parent category --></label>
+        <name>ParentCategory__c</name>
+        <relationshipLabel><!-- Product categories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Specific storage conditions --></label>
+        <name>SpecificStorageConditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Storage conditions --></label>
+        <name>StorageConditions_del__c</name>
+    </fields>
+    <layouts>
+        <layout>Product category Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

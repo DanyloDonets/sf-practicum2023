@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Items</fullName>
+        <default>false</default>
+        <label>Штуки</label>
+    </customValue>
+    <customValue>
+        <fullName>Tins</fullName>
+        <default>false</default>
+        <label>Банки</label>
+    </customValue>
+    <customValue>
+        <fullName>Kg</fullName>
+        <default>false</default>
+        <label>Кілограми</label>
+    </customValue>
+    <customValue>
+        <fullName>Packs</fullName>
+        <default>false</default>
+        <label>Упаковки</label>
+    </customValue>
+    <masterLabel>Units</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

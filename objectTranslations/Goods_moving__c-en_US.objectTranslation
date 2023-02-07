@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Goods movings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Goods movings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Donation --></label>
+        <name>Donation__c</name>
+        <relationshipLabel><!-- Goods movings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- From Storage --></label>
+        <name>FromStorage__c</name>
+        <relationshipLabel><!-- Goods movings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- To Storage --></label>
+        <name>ToStorage__c</name>
+        <relationshipLabel><!-- Goods movings (To Storage) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Good moving Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sending</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Transfer</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Receiving --></label>
+        <name>Receiving</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sending --></label>
+        <name>Sending</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transfer --></label>
+        <name>Transfer</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Donation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Donations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Donations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Donations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description of donate --></label>
+        <name>DescriptionOfDonate__c</name>
+    </fields>
+    <layouts>
+        <layout>Enter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Choose account or contact --></errorMessage>
+        <name>AccountOrContact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only 123 is allowed as a value --></errorMessage>
+        <name>BlockEditing</name>
+    </validationRules>
+</CustomObjectTranslation>

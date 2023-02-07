@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FridgeStorage</fullName>
+        <default>false</default>
+        <label>Холодильник</label>
+    </customValue>
+    <customValue>
+        <fullName>DryStorage</fullName>
+        <default>false</default>
+        <label>Сухе приміщення</label>
+    </customValue>
+    <customValue>
+        <fullName>WarmStorage</fullName>
+        <default>false</default>
+        <label>Тепле приміщення</label>
+    </customValue>
+    <masterLabel>SaveInfo</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
